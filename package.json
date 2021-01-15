@@ -8,15 +8,40 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.13.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.10.4",
+    "@react-navigation/drawer": "^5.10.6",
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
     "expo": "~39.0.2",
     "expo-status-bar": "~1.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "ngrok": "^3.3.0",
+    "nodemon": "^2.0.6",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-elements": "^3.0.0-alpha.1",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-screens": "~2.10.1",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "^10.7.0",
+    "react-navigation": "^4.4.3",
+    "react-navigation-stack": "^2.9.0",
+    "react-navigation-tabs": "^2.10.0"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0"
   },
-  "private": true
+  "private": true,
+  "name": "libs",
+  "version": "1.0.0",
+  "author": "saadbhnas <saad.bhnas@gmail.com>",
+  "license": "MIT"
 }
